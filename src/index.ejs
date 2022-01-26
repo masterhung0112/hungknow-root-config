@@ -34,6 +34,8 @@
   <script type="systemjs-importmap">
     {
       "imports": {
+        "react": "https://unpkg.com/react@17/umd/react.production.min.js",
+        "react-dom": "https://unpkg.com/react-dom@17/umd/react-dom.production.min.js",
         "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js"
       }
     }
@@ -49,7 +51,8 @@
       "imports": {
         "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
         "@hungknow/root-config": "//localhost:9000/hungknow-root-config.js",
-        "@hungknow/root-nav": "//localhost:9001/hungknow-root-nav.js"
+        "@hungknow/root-nav": "//localhost:9001/hungknow-root-nav.js",
+        "@hungknow/react-spa-example": "//localhost:9002/hungknow-react-spa-example.js"
       }
     }
   </script>
